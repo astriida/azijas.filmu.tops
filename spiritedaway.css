@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fons */
+body {
+    font-family: Arial, sans-serif;
+    background: #c9eabe;
+}
+
+/* Navigācija */
+nav {
+    background: #111;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Galvenais bloks */
+.movie-detail {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #b3d4b1;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+/* Saturs ar attēlu */
+.detail-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Attēls */
+.detail-container img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Teksts */
+.text-content h2 {
+    margin-top: 20px;
+}
+
+.text-content p {
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+.nav-links a:hover {
+    color: #0B6624;
+}

@@ -1,0 +1,176 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PAMATA STILS */
+body {
+    font-family: Arial, sans-serif;
+    background: #c9eabe;
+    color: #333;
+
+}
+
+/* NAVBAR */
+nav {
+    background: #111;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #0B6624;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 25px 15px;
+    background: linear-gradient(to right, #111, #333);
+    color: white;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* SEKCIJAS */
+section {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* FILMU GRID */
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 25px;
+}
+
+/* KARTĪTES */
+.movie-card {
+    background: #b3d4b1;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.08);
+    text-align: center;
+    transition: 0.3s;
+    border-top: 5px solid #0B6624;
+}
+
+.movie-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.movie-card h3 {
+    margin-bottom: 10px;
+}
+
+.movie-card p {
+    margin-bottom: 15px;
+}
+
+/* POGA */
+.read-more-btn {
+    display: inline-block;
+    background: #0B6624;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.read-more-btn:hover {
+    background: #0B6624;
+}
+
+/* FORMA */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: auto;
+    gap: 12px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+form button {
+    background: #0B6624;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #0B6624;
+}
+
+/* FEEDBACK */
+#formFeedback {
+    margin-top: 10px;
+    text-align: center;
+}
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;   /* ļauj iet jaunā rindā */
+    gap: 15px;
+}
+
+.gallery-grid img {
+    width: 300px;      /* visas bildes vienāda platuma */
+    height: auto;      /* saglabā proporcijas */
+    border-radius: 10px;
+}
+
+#contact {
+    max-width: 600px;
+    margin: 60px auto;
+    text-align: center;
+    padding: 20px;
+}

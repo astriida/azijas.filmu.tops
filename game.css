@@ -1,0 +1,85 @@
+
+/* ===== GALVENAIS IZKĀRTOJUMS ===== */
+.game-container {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 900px;
+    padding: 20px;
+}
+
+/* ===== SPĒLES GRID ===== */
+.game-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* ===== ATTĒLI ===== */
+.game-grid img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;   /* saglabā proporcijas, bet aizpilda laukumu */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* hover efekts */
+.game-grid img:hover {
+    transform: scale(1.05);
+}
+
+/* pareizā atbilde */
+.correct {
+    border: 10px solid #2ecc71;
+}
+
+/* nepareizā atbilde */
+.wrong {
+    border: 10px solid #e74c3c;
+}
+
+/* ===== REZULTĀTS ===== */
+#result {
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ===== HEADER (spēles lapai) ===== */
+header {
+    text-align: center;
+    padding: 25px 15px;
+    background: linear-gradient(to right, #111, #333);
+    color: #f4f4f4 ;
+}
+
+/* ===== NAVBAR (ja vēl nav perfekts) ===== */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #111;
+    color:#f4f4f4;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #0B6624;
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Āzijas Kino Tops</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">KinoĀzija</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Sākums</a></li>
+            <li><a href="galerija.html">Galerija</a></li>
+            <li><a href="game.html">Spēle</a></li>
+            <li><a href="ieteikumi.html">Ieteikumi</a></li>
+        </ul>
+    </nav>
+       
+
+    <section id="contact">
+        <h2>Iesaki savu filmu</h2>
+        <form id="movieForm">
+            <input type="text" id="userName" placeholder="Tavs vārds" required>
+            <input type="email" id="userEmail" placeholder="E-pasts" required>
+            <textarea id="message" placeholder="Kādu filmu tu iesaki?"></textarea>
+            <button type="submit">Sūtīt ziņu</button>
+        </form>
+        <div id="formFeedback"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>  
