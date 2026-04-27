@@ -17,7 +17,7 @@ const games = [
         options: [
             { img: "samurai1.jpg", correct: false },
             { img: "parasite2.jpg", correct: false },
-          { img: "spirited1.webp", correct: true }
+          { img: "spirited11.jpg", correct: true }
         ]
     },
 
