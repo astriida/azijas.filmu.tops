@@ -24,7 +24,7 @@ const games = [
     {
         name: "Seven Samurai",
         options: [
-            { img: "spirited2.webp", correct: false },
+            { img: "spirited-away.jpg", correct: false },
              { img: "samurai2.jpg", correct: true },
             { img: "parasite3.png", correct: false }
         ]
