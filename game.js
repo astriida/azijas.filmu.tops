@@ -7,7 +7,7 @@ const games = [
         name: "Parasite",
         options: [
             { img: "parasite1.jpg", correct: true },
-            { img: "spirited.jpg", correct: false },
+            { img: "spirited11.jpg", correct: false },
             { img: "samurai.png", correct: false }
         ]
     },
