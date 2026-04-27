@@ -5,18 +5,17 @@
     box-sizing: border-box;
 }
 
-/* PAMATA STILS */
+/* PAMATS */
 body {
     font-family: Arial, sans-serif;
     background: #c9eabe;
     color: #333;
-
 }
 
 /* NAVBAR */
 nav {
     background: #111;
-    color: white;
+    color: #fff;
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
@@ -36,7 +35,7 @@ nav {
 }
 
 .nav-links a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -50,7 +49,7 @@ header {
     text-align: center;
     padding: 25px 15px;
     background: linear-gradient(to right, #111, #333);
-    color: white;
+    color: #fff;
 }
 
 header h1 {
@@ -59,7 +58,6 @@ header h1 {
 }
 
 header p {
-    font-size: 18px;
     opacity: 0.9;
 }
 
@@ -70,27 +68,21 @@ section {
     padding: 0 20px;
 }
 
-section h2 {
-    margin-bottom: 20px;
-    font-size: 28px;
-}
-
-/* FILMU GRID */
+/* FILMAS */
 .movie-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 25px;
 }
 
-/* KARTĪTES */
 .movie-card {
     background: #b3d4b1;
     padding: 25px;
     border-radius: 12px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.08);
     text-align: center;
-    transition: 0.3s;
     border-top: 5px solid #0B6624;
+    box-shadow: 0 0 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
 }
 
 .movie-card:hover {
@@ -98,27 +90,20 @@ section h2 {
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
-.movie-card h3 {
-    margin-bottom: 10px;
-}
-
-.movie-card p {
-    margin-bottom: 15px;
+/* POGAS + FORMA (APVIENOTS) */
+.read-more-btn,
+form button {
+    background: #0B6624;
+    color: #fff;
+    border-radius: 6px;
+    transition: 0.3s;
 }
 
 /* POGA */
 .read-more-btn {
     display: inline-block;
-    background: #0B6624;
-    color: white;
     padding: 10px 20px;
-    border-radius: 6px;
     text-decoration: none;
-    transition: 0.3s;
-}
-
-.read-more-btn:hover {
-    background: #0B6624;
 }
 
 /* FORMA */
@@ -138,39 +123,34 @@ form textarea {
 }
 
 form button {
-    background: #0B6624;
-    color: white;
     padding: 12px;
     border: none;
-    border-radius: 6px;
     cursor: pointer;
-    transition: 0.3s;
 }
 
-form button:hover {
-    background: #0B6624;
-}
-
-/* FEEDBACK */
-#formFeedback {
-    margin-top: 10px;
-    text-align: center;
-}
+/* GALERIJA */
 .gallery-grid {
     display: flex;
-    flex-wrap: wrap;   /* ļauj iet jaunā rindā */
+    flex-wrap: wrap;
     gap: 15px;
 }
 
 .gallery-grid img {
-    width: 300px;      /* visas bildes vienāda platuma */
-    height: auto;      /* saglabā proporcijas */
+    width: 300px;
+    height: auto;
     border-radius: 10px;
 }
 
+/* CONTACT */
 #contact {
     max-width: 600px;
     margin: 60px auto;
     text-align: center;
     padding: 20px;
+}
+
+/* FEEDBACK */
+#formFeedback {
+    text-align: center;
+    margin-top: 10px;
 }
